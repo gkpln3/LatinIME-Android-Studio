@@ -3,7 +3,7 @@ set -e
 
 if [ ! -d "LatinIME" ]; then
     echo "Please download latest LatinIME to the LatinIME directory."
-    echo "Grab it from here: https://android.googlesource.com/platform/packages/inputmethods/LatinIME/+/refs/heads/master"
+    echo "git clone https://android.googlesource.com/platform/packages/inputmethods/LatinIME"
     exit 1
 fi
 

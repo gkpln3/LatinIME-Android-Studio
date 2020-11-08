@@ -10,9 +10,9 @@ The aim of this project is to allow development of LatingIME using Android Studi
 
 1. Make sure you have Android ndk installed and `ANDROID_NDK_HOME` environment variable set.
 1. Checkout this repository.
-1. Download LatinIME sources to `LatinIME` subdirectory:
+1. Clone LatinIME sources to `LatinIME` subdirectory: (tested and confirmed working on `587c17241a6750e346280cbb08b24a1abea4dc4d`)
 
-        https://android.googlesource.com/platform/packages/inputmethods/LatinIME/+/refs/heads/master
+        git clone https://android.googlesource.com/platform/packages/inputmethods/LatinIME
 1. Configure the build by compiling the native libraries:
 
         ./configure.sh
