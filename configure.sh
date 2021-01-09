@@ -17,7 +17,7 @@ cp native_makefiles/*.mk LatinIME/native/jni/
 
 # Build libjni_latinime.so.
 pushd LatinIME/native/jni/
-$ANDROID_NDK_HOME/ndk-build -j
+$ANDROID_NDK_HOME/ndk-build -j || true
 popd
 
 # Copy all native libraries to the app module.
